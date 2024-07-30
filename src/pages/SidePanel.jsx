@@ -3,7 +3,7 @@ import { BsCalendarDate } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { IoPhonePortraitOutline } from "react-icons/io5";
-import { MdOutlineMail } from "react-icons/md";
+import { MdOutlineLocationOn, MdOutlineMail } from "react-icons/md";
 
 const SidePanel = () => {
   return (
@@ -17,7 +17,7 @@ const SidePanel = () => {
       </div>
       <div className="w-full h-1/2 flex flex-col justify-center items-center gap-10">
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md drop-shadow-2xl bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
             <MdOutlineMail />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -26,7 +26,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md drop-shadow-2xl bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
             <IoPhonePortraitOutline />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -35,7 +35,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md drop-shadow-2xl bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
             <BsCalendarDate />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -44,8 +44,8 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md drop-shadow-2xl bg-[#373837] text-yellow-500">
-            <CiLocationOn />
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
+            <MdOutlineLocationOn />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
             <p className="text-sm font-semibold">LOCATION</p>
