@@ -19,7 +19,7 @@ const SidePanel = () => {
   };
 
   return (
-    <div className="w-full text-white flex flex-col justify-start items-center px-5 py-10 gap-10 relative">
+    <div className="w-full h-full text-white flex flex-col justify-start items-center p-5 gap-5 relative tablet:h-fit">
       <div className="w-36 h-36 flex items-center justify-center rounded-2xl bg-[#373837] shadow-xl">
         <img src={Profile} alt="profile" className="rounded-2xl" />
       </div>

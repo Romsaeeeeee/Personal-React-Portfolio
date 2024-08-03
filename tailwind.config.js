@@ -35,6 +35,15 @@ export default {
         marble:
           "url('./src/assets/close-up-white-marble-texture-background.jpg')",
       },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 1s ease-in-out",
+      },
     },
   },
   plugins: [],
