@@ -1,21 +1,35 @@
-import Topbar from "./components/Topbar";
-import BodyTesting from "./pages/MainPages/BodyTesting";
-import SidePanel from "./pages/SidePanel";
+import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+// import Topbar from "./components/Topbar";
+// import BodyTesting from "./pages/MainPages/BodyTesting";
+// import SidePanel from "./pages/SidePanel";
+import Container from "./layout/Container";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route
+      path="/"
+      element={<Container />}
+    >
+      {/* ABOUT PAGE */}
+      <Route path="about" element={<About />}></Route>
+      {/* RESUME PAGE */}
+      <Route path="resume" element={<Resume />}></Route>
+      {/* PORTFOLIO PAGE */}
+      <Route path="portfolio" element={<Portfolio />}></Route>
+      {/* CONTACT PAGE */}
+      <Route path="contact" element={<Contact />}></Route>
+      {/* Default Page */}
+      <Route path="*" element={<Navigate to="about" />}></Route>
+    </Route>
+  ));
 
 function App() {
-  return (
-    <div className="h-screen w-screen flex justify-center items-center gap-10 p-7 bg-[#101110] tablet:flex-col tablet:p-5 overflow-y-auto">
-      <div className="w-[20%] h-full bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border tablet:w-full tablet:h-fit">
-        <SidePanel />
-      </div>
-      <div className="w-[75%] h-full bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border tablet:w-full">
-        <div className="w-full flex justify-end items-end">
-          <Topbar />
-        </div>
-        <BodyTesting />
-      </div>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
