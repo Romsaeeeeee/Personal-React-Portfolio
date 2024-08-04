@@ -15,7 +15,9 @@ const Topbar = () => {
           <NavLink
             to={item.path}
             key={index}
-            className="text-white cursor-pointer hover:text-yellow-500"
+            className={({ isActive }) =>
+              `${isActive ? "text-yellow-200 border-b-2 border-yellow-200" : "text-white  hover:text-yellow-200"} cursor-pointer transition-all`
+            }
           >
             {item.label}
           </NavLink>

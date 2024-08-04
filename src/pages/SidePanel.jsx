@@ -45,7 +45,7 @@ const SidePanel = () => {
           }`}
       >
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-200">
             <MdOutlineMail />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -54,7 +54,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-200">
             <IoPhonePortraitOutline />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -63,7 +63,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-200">
             <BsCalendarDate />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -72,7 +72,7 @@ const SidePanel = () => {
           </div>
         </div>
         <div className="w-full flex justify-start items-center gap-3">
-          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-500">
+          <span className="w-10 h-10 flex justify-center items-center text-2xl rounded-md shadow-md bg-[#373837] text-yellow-200">
             <MdOutlineLocationOn />
           </span>
           <div className="flex flex-col justify-start items-start gap-1">
@@ -91,19 +91,19 @@ const SidePanel = () => {
       >
         <a
           href=""
-          className="hover:text-yellow-500 transition-all duration-300"
+          className="hover:text-yellow-200 transition-all duration-300"
         >
           <FaFacebook />
         </a>
         <a
-          className="text-3xl hover:text-yellow-500 transition-all duration-300"
+          className="text-3xl hover:text-yellow-200 transition-all duration-300"
           href=""
         >
           <AiFillInstagram />
         </a>
         <a
           href=""
-          className="hover:text-yellow-500 transition-all duration-300"
+          className="hover:text-yellow-200 transition-all duration-300"
         >
           <FaGithub />
         </a>

@@ -13,7 +13,9 @@ const Container = () => {
                 <div className="w-full flex justify-end items-end tablet:sticky">
                     <Topbar />
                 </div>
-                <Outlet />
+                <div className="h-full w-full">
+                    <Outlet />
+                </div>
             </div>
         </div>
     );

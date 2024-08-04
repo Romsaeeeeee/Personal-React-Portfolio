@@ -12,7 +12,6 @@ import Contact from "./pages/Contact";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      path="/"
       element={<Container />}
     >
       {/* ABOUT PAGE */}
