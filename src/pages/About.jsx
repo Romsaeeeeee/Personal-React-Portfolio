@@ -37,7 +37,7 @@ const About = () => {
 
 
     return (
-        <div className="h-full w-full flex flex-col justify-start items-center gap-14 p-5 text-white animate-fadeIn transition-all">
+        <div className="h-full w-full flex flex-col justify-start items-center gap-14 p-10 text-white animate-fadeIn transition-all">
             <div className="w-full flex flex-col justify-start items-start gap-7">
                 <div className="flex flex-col gap-4">
                     <p className="text-3xl font-semibold">About Me</p>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <div className="w-full flex flex-col justify-start items-start gap-7 pb-10">
                 <p className="text-3xl font-semibold">My Skills</p>
-                <div className="w-full flex justify-center items-center gap-10">
+                <div className="w-full flex justify-center items-center gap-10 tablet:flex-col">
                     {firstSlice && firstSlice.map((item, index) =>
                         <CardSkills
                             key={index}
@@ -67,7 +67,7 @@ const About = () => {
                         />
                     )}
                 </div>
-                <div className="w-full flex justify-center items-center gap-10">
+                <div className="w-full flex justify-center items-center gap-10 tablet:flex-col">
                     {secondSlice && secondSlice.map((item, index) =>
                         <CardSkills
                             key={index}
@@ -77,7 +77,7 @@ const About = () => {
                         />
                     )}
                 </div>
-                <div className="w-full flex justify-center items-center gap-10">
+                <div className="w-full flex justify-center items-center gap-10 ">
                     {thirdSlice && thirdSlice.map((item, index) =>
                         <CardSkills
                             key={index}
@@ -90,7 +90,7 @@ const About = () => {
             </div>
             <div className="w-full flex flex-col justify-start items-start gap-7 pb-10">
                 <p className="text-3xl font-semibold">My Hobbies</p>
-                <div className="w-full flex justify-center items-center gap-10">
+                <div className="w-full flex justify-center items-center gap-10 tablet:flex-col">
                     <CardSkills
                         label="Online Games"
                         icon={<CgGames />}
