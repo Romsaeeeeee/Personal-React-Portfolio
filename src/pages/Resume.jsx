@@ -67,7 +67,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-fit flex flex-col justify-start items-start gap-5 pb-5">
+            <div className="w-full h-fit flex flex-col justify-start items-start gap-5 pb-10">
                 <p className="text-2xl font-semibold">My Skills</p>
                 <div className="h-full w-full flex flex-col justify-start items-start gap-5 bg-[#373837] p-5 rounded-lg">
                     <div className="w-full flex flex-col justify-start items-start gap-2">
