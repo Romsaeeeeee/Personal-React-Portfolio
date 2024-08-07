@@ -40,9 +40,19 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        shrinkIn: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(0)" },
+        },
+        shrinkOut: {
+          "0%": { transform: "scale(0)" },
+          "100%": { transform: "scale(1)" },
+        },
       },
       animation: {
         fadeIn: "fadeIn 1s ease-in-out",
+        shrinkIn: "shrinkIn 0.8s forwards",
+        shrinkOut: "shrinkOut 0.8s forwards",
       },
     },
   },

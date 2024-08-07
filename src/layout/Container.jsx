@@ -5,7 +5,7 @@ import SidePanel from "../pages/SidePanel";
 
 const Container = () => {
     return (
-        <div className="h-screen w-screen flex justify-center items-center gap-10 p-7 bg-[#101110] tablet:flex-col overflow-auto tablet:h-max">
+        <div className="h-screen w-screen flex justify-center items-center gap-10 p-7 bg-[#101110] tablet:flex-col overflow-auto tablet:h-max tablet:p-2">
             <div className="w-[20%] h-full overflow-auto bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border tablet:w-full tablet:overflow-hidden">
                 <SidePanel />
             </div>
