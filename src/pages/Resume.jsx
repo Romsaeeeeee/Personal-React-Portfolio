@@ -49,7 +49,7 @@ const Resume = () => {
                     <p className="text-2xl font-semibold">Experience</p>
                 </div>
                 <ul className="flex flex-col justify-start items-start gap-1 px-3">
-                    <li className="flex justify-start items-center gap-[53px] font-semibold"><span className="text-yellow-200"><FaRegDotCircle /></span>Bulacan State University</li>
+                    <li className="flex justify-start items-center gap-[53px] font-semibold"><span className="text-yellow-200"><FaRegDotCircle /></span>Nexbridge Technologies Inc.</li>
                     <li className="text-yellow-200 text-sm px-[69px]">June (2024) - August (2024)</li>
                     <li className="text-sm px-[69px]">Front-End Web Developer (Intern)</li>
                 </ul>
