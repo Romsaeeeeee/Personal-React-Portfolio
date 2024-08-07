@@ -67,12 +67,39 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-full flex flex-col justify-start items-start gap-5 pb-10">
+            <div className="w-full h-fit flex flex-col justify-start items-start gap-5 pb-5">
                 <p className="text-2xl font-semibold">My Skills</p>
-                <div className="h-1/2 w-full bg-[#373837] p-5 rounded-lg">
-                    <Box sx={{ width: '100%' }}>
-                        <LinearProgress />
-                    </Box>
+                <div className="h-full w-full flex flex-col justify-start items-start gap-5 bg-[#373837] p-5 rounded-lg">
+                    <div className="w-full flex flex-col justify-start items-start gap-2">
+                        <p>HTML <span className="opacity-50"> 90%</span></p>
+                        <Box sx={{ width: '100%', height: '100%', color: '#fef08a' }}>
+                            <LinearProgress sx={{ height: '10px', borderRadius: '20px', }} variant="determinate" color="inherit" value={90} />
+                        </Box>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-start gap-2">
+                        <p>CSS <span className="opacity-50"> 80%</span></p>
+                        <Box sx={{ width: '100%', height: '100%', color: '#fef08a' }}>
+                            <LinearProgress sx={{ height: '10px', borderRadius: '20px', }} variant="determinate" color="inherit" value={80} />
+                        </Box>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-start gap-2">
+                        <p>JAVASCRIPT <span className="opacity-50"> 70%</span></p>
+                        <Box sx={{ width: '100%', height: '100%', color: '#fef08a' }}>
+                            <LinearProgress sx={{ height: '10px', borderRadius: '20px', }} variant="determinate" color="inherit" value={70} />
+                        </Box>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-start gap-2">
+                        <p>REACT JS <span className="opacity-50"> 70%</span></p>
+                        <Box sx={{ width: '100%', height: '100%', color: '#fef08a' }}>
+                            <LinearProgress sx={{ height: '10px', borderRadius: '20px', }} variant="determinate" color="inherit" value={70} />
+                        </Box>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-start gap-2">
+                        <p>GIT <span className="opacity-50"> 80%</span></p>
+                        <Box sx={{ width: '100%', height: '100%', color: '#fef08a' }}>
+                            <LinearProgress sx={{ height: '10px', borderRadius: '20px', }} variant="determinate" color="inherit" value={80} />
+                        </Box>
+                    </div>
                 </div>
             </div>
         </div>
