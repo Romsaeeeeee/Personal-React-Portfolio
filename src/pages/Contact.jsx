@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="w-full h-20 flex justify-end items-center tablet:justify-center pb-10">
-                <button className="w-1/6 h-12 flex justify-center items-center gap-1 rounded-md bg-[#373837] hover:text-yellow-200 transition hover:border-2 hover:border-white hover:bg-transparent tablet:w-1/2 tablet:text-xs "><span><IoIosSend /></span>  Send Message</button>
+                <button className="w-1/6 h-12 flex justify-center items-center gap-1 rounded-md bg-[#373837] shadow-md hover:text-yellow-200 transition hover:border-2 hover:border-white hover:bg-transparent tablet:w-1/2 tablet:text-xs "><span><IoIosSend /></span>  Send Message</button>
             </div>
         </div>
     );

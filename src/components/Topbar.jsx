@@ -4,7 +4,7 @@ const Topbar = () => {
   const links = [
     { label: "About", path: "/about" },
     { label: "Resume", path: "/resume" },
-    { label: "Portfolio", path: "/portfolio" },
+    { label: "Projects", path: "/projects" },
     { label: "Contact", path: "/contact" },
   ];
 

@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       {/* RESUME PAGE */}
       <Route path="resume" element={<Resume />}></Route>
       {/* PORTFOLIO PAGE */}
-      <Route path="portfolio" element={<Portfolio />}></Route>
+      <Route path="projects" element={<Portfolio />}></Route>
       {/* CONTACT PAGE */}
       <Route path="contact" element={<Contact />}></Route>
       {/* Default Page */}
