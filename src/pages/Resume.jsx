@@ -1,3 +1,4 @@
+import { Box, LinearProgress } from "@mui/material";
 import React from "react";
 import { FaLaptopCode, FaRegDotCircle } from "react-icons/fa";
 import { IoBook } from "react-icons/io5";
@@ -69,7 +70,9 @@ const Resume = () => {
             <div className="w-full h-full flex flex-col justify-start items-start gap-5 pb-10">
                 <p className="text-2xl font-semibold">My Skills</p>
                 <div className="h-1/2 w-full bg-[#373837] p-5 rounded-lg">
-
+                    <Box sx={{ width: '100%' }}>
+                        <LinearProgress />
+                    </Box>
                 </div>
             </div>
         </div>
