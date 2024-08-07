@@ -9,7 +9,7 @@ const Container = () => {
             <div className="w-[20%] h-full overflow-auto bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border tablet:w-full tablet:overflow-hidden">
                 <SidePanel />
             </div>
-            <div className="w-[75%] h-full bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border overflow-auto tablet:w-full tablet:h-screen">
+            <div className="w-[75%] h-full bg-[#232423] rounded-xl shadow-[#101110] shadow-2xl border-[#373837] border overflow-auto tablet:w-full">
                 <div className="w-full flex justify-end items-end tablet:sticky">
                     <Topbar />
                 </div>

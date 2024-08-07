@@ -86,7 +86,7 @@ const SidePanel = () => {
       <div
         className={`${hide == true
           ? "hidden"
-          : "w-full h-fit flex justify-center items-center gap-5 text-2xl"
+          : "w-full h-fit flex justify-center items-center gap-5 text-xl"
           } `}
       >
         <a
@@ -96,7 +96,7 @@ const SidePanel = () => {
           <FaFacebook />
         </a>
         <a
-          className="text-3xl hover:text-yellow-200 transition-all duration-300"
+          className="text-2xl hover:text-yellow-200 transition-all duration-300"
           href=""
         >
           <AiFillInstagram />
