@@ -16,7 +16,7 @@ const Topbar = () => {
             to={item.path}
             key={index}
             className={({ isActive }) =>
-              `${isActive ? "text-yellow-200 border-b-2 border-yellow-200" : "text-white  hover:text-yellow-200"} cursor-pointer transition-all`
+              `${isActive ? "text-yellow-200 border-b-2 border-yellow-200" : "text-white hover:text-yellow-200"} cursor-pointer transition-all`
             }
           >
             {item.label}
