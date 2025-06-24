@@ -25,6 +25,7 @@ const router = createBrowserRouter(
       {/* Default Page */}
       <Route path="*" element={<Navigate to="about" />}></Route>
     </Route>
+
   ));
 
 function App() {
