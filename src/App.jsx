@@ -1,7 +1,4 @@
 import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
-// import Topbar from "./components/Topbar";
-// import BodyTesting from "./pages/MainPages/BodyTesting";
-// import SidePanel from "./pages/SidePanel";
 import Container from "./layout/Container";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
@@ -25,7 +22,6 @@ const router = createBrowserRouter(
       {/* Default Page */}
       <Route path="*" element={<Navigate to="about" />}></Route>
     </Route>
-
   ));
 
 function App() {
